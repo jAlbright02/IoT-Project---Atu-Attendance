@@ -39,6 +39,6 @@ these are just methods to tell them that their action has gone through and has b
 + Natasha Rohan
 
 ### Inspirations / Resources
-[RFID Library used](https://github.com/miguelbalboa/rfid)
-[Odin project](https://www.theodinproject.com/)
-[Development Board used](https://www.espressif.com/en/products/socs/esp32)
++ [RFID Library used](https://github.com/miguelbalboa/rfid)
++ [Odin project](https://www.theodinproject.com/)
++ [Development Board used](https://www.espressif.com/en/products/socs/esp32)
