@@ -34,9 +34,9 @@ these are just methods to tell them that their action has gone through and has b
 ## Acknowledgments
 
 ### Lecturers
-Michelle Lynch
-Brian O'Shea
-Natasha Rohan
++ Michelle Lynch
++ Brian O'Shea
++ Natasha Rohan
 
 ### Inspirations / Resources
 [RFID Library used](https://github.com/miguelbalboa/rfid)
