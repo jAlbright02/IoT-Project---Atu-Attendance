@@ -1,62 +1,44 @@
 # ATU-Attendance
 
-Simple overview of use/purpose.
+ATU Attendance was designed to modernize a method used in so many educational institutions. 
+I created an attendance system using RFID (Radio Field Identification) technology to record 
+attendance of students and display it on a website to the teacher.
+
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This project is an attendance system which will improve a day-to-day process that every school 
+uses, roll call. My goal was to make this task as automated as possible by making roll call done 
+by students just swiping a tag. I decided on this idea because I see in both school and 
+University, we still use the basic method of pen and paper. A chance at modernizing this was a 
+good project idea to me.
 
-## Getting Started
+To achieve this, I relied heavily on RFID Technology (Radio Frequency Identification) and the 
+versatility of the ESP32. RFID works by transmitting electromagnetic energy which hold 
+information (the ‘ID’) from the tag to the reader. Although on a different end of the 
+electromagnetic spectrum, it works the same as light does to our eyes, data sent to a reader 
+which is then processed.
 
-### Dependencies
+A basic explanation is this - a student will scan in their tag; this will show up on a website that 
+only the teacher can access. They will be able to see who scanned in and who didn’t. After class 
+ends the teacher clicks a button on the site and refreshes the currently shown attendance 
+record.
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+There are also two other components which are for the end user’s sake, an LED and a Buzzer, 
+these are just methods to tell them that their action has gone through and has been received
 
 ## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+  
+[jAlbright02](https://github.com/jAlbright02)
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+### Lecturers
+Michelle Lynch
+Brian O'Shea
+Natasha Rohan
+
+### Inspirations / Resources
+[RFID Library used](https://github.com/miguelbalboa/rfid)
+[Odin project](https://www.theodinproject.com/)
+[Development Board used](https://www.espressif.com/en/products/socs/esp32)
