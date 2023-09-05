@@ -27,6 +27,8 @@ record.
 There are also two other components which are for the end user’s sake, an LED and a Buzzer, 
 these are just methods to tell them that their action has gone through and has been received
 
+[Link for live demonstration](https://youtu.be/ZV4smwcrgNs)
+
 ## Authors
   
 [jAlbright02](https://github.com/jAlbright02)
